@@ -1,10 +1,10 @@
 
 
 var name = prompt('Введите свое имя')
-console.log(name);
+console.log('Вас зовут ' + name);
 
 var age = +prompt('Введите свой возраст')
-console.log(age);
+console.log('Вам ' + age);
 
 var task1 = +prompt(' 5+6=? ')
 console.log('5+6=11' + '(Ваш ответ ' + task1 + ')');
